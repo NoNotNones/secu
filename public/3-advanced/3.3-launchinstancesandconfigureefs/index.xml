@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Launch Instances and Configure EFS on Essentials in Cybersecurity</title>
+    <link>http://localhost:1313/secu/3-advanced/3.3-launchinstancesandconfigureefs/</link>
+    <description>Recent content in Launch Instances and Configure EFS on Essentials in Cybersecurity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/secu/3-advanced/3.3-launchinstancesandconfigureefs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tạo Internet Gateway</title>
+      <link>http://localhost:1313/secu/3-advanced/3.3-launchinstancesandconfigureefs/_index.vi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/secu/3-advanced/3.3-launchinstancesandconfigureefs/_index.vi/</guid>
+      <description>Tạo Internet Gateway Trong giao diện VPC&#xA;Chọn Internet Gateways Chọn Create internet gateway Thực hiện cấu hình&#xA;Name tag, nhập Internet Gateway Chọn Create internet gateway Hoàn thành tạo Internet Gateway Thực hiện Attach VPC&#xA;Chọn Actions Chọn Attach to VPC Chọn ASG, VPC ID sẽ được tự động điền. Chọn Attach intermet gateway Khi attach thành công State internet gateway sẽ chuyển sang Attached </description>
+    </item>
+  </channel>
+</rss>

@@ -14,7 +14,6 @@ chapter : false
 - **Explore** the cybersecurity threat landscape.
 
 
-![VPC](/secu/images/1/0001.png?featherlight=false&width=50pc)
 
 #### Content
 

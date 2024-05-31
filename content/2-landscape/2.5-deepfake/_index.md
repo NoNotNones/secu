@@ -1,5 +1,5 @@
 ---
-title : "Instances"
+title : "Deepfakes"
 date :  "`r Sys.Date()`" 
 weight : 5
 chapter : false

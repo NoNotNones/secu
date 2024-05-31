@@ -6,43 +6,43 @@
   </url><url>
     <loc>http://localhost:1313/secu/_index.vi/</loc>
   </url><url>
-    <loc>http://localhost:1313/secu/3-configureefs/3.1-createsecuritygroupsforefs/</loc>
+    <loc>http://localhost:1313/secu/3-advanced/3.1-createsecuritygroupsforefs/</loc>
   </url><url>
     <loc>http://localhost:1313/secu/1-introduce/</loc>
   </url><url>
     <loc>http://localhost:1313/secu/2-landscape/2.1-malware/</loc>
   </url><url>
-    <loc>http://localhost:1313/secu/3-configureefs/3.1-createsecuritygroupsforefs/_index.vi/</loc>
+    <loc>http://localhost:1313/secu/3-advanced/3.1-createsecuritygroupsforefs/_index.vi/</loc>
   </url><url>
-    <loc>http://localhost:1313/secu/3-configureefs/3.2-createefsforfilesystems/</loc>
+    <loc>http://localhost:1313/secu/3-advanced/3.2-createefsforfilesystems/</loc>
   </url><url>
     <loc>http://localhost:1313/secu/2-landscape/2.2-phishing/</loc>
   </url><url>
-    <loc>http://localhost:1313/secu/3-configureefs/3.2-createefsforfilesystems/_index.vi/</loc>
+    <loc>http://localhost:1313/secu/3-advanced/3.2-createefsforfilesystems/_index.vi/</loc>
   </url><url>
     <loc>http://localhost:1313/secu/2-landscape/</loc>
   </url><url>
-    <loc>http://localhost:1313/secu/3-configureefs/_index.vi/</loc>
-  </url><url>
-    <loc>http://localhost:1313/secu/3-configureefs/</loc>
-  </url><url>
-    <loc>http://localhost:1313/secu/3-configureefs/3.3-launchinstancesandconfigureefs/</loc>
+    <loc>http://localhost:1313/secu/3-advanced/</loc>
   </url><url>
     <loc>http://localhost:1313/secu/2-landscape/2.3-email/</loc>
   </url><url>
-    <loc>http://localhost:1313/secu/3-configureefs/3.3-launchinstancesandconfigureefs/_index.vi/</loc>
+    <loc>http://localhost:1313/secu/3-advanced/_index.vi/</loc>
   </url><url>
-    <loc>http://localhost:1313/secu/4-resourcecleanup/</loc>
+    <loc>http://localhost:1313/secu/3-advanced/3.3-launchinstancesandconfigureefs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/3-advanced/3.3-launchinstancesandconfigureefs/_index.vi/</loc>
   </url><url>
     <loc>http://localhost:1313/secu/2-landscape/2.4-ddos/</loc>
   </url><url>
-    <loc>http://localhost:1313/secu/3-configureefs/3.4-sharefilesbetweentwoec2instances/</loc>
+    <loc>http://localhost:1313/secu/3-advanced/3.4-sharefilesbetweentwoec2instances/</loc>
   </url><url>
-    <loc>http://localhost:1313/secu/3-configureefs/3.4-sharefilesbetweentwoec2instances/_index.vi/</loc>
+    <loc>http://localhost:1313/secu/3-advanced/3.4-sharefilesbetweentwoec2instances/_index.vi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/4-update/</loc>
   </url><url>
     <loc>http://localhost:1313/secu/2-landscape/2.5-deepfake/</loc>
   </url><url>
-    <loc>http://localhost:1313/secu/4-resourcecleanup/_index.vi/</loc>
+    <loc>http://localhost:1313/secu/4-update/_index.vi/</loc>
   </url><url>
     <loc>http://localhost:1313/secu/categories/</loc>
   </url><url>
