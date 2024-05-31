@@ -1,10 +1,17 @@
 [
 {
 	"uri": "http://localhost:1313/secu/",
-	"title": " Amazon EFS file system ",
+	"title": " Essentials in Cybersecurity",
 	"tags": [],
 	"description": "",
-	"content": "File Systems in the Cloud Overview Amazone Elastic File System (Amazon EFS) provides a serverless, set-and-forget-elastic file system that you can use to share file data without provisioning or managing storage.\nIn this workshop , we will deploy and maintain a file systems infrastructure that is asscessible from two different server\nContent Introduction Prepairation Configure EFS Resource Cleanup "
+	"content": "Essentials in Cybersecurity Discover the skills needed for a career in cybersecurity. Develop an understanding of core cybersecurity concepts. Gain fluency in cybersecurity terminology. Explore the cybersecurity threat landscape. Content Introduction Prepairation Configure EFS Resource Cleanup "
+},
+{
+	"uri": "http://localhost:1313/secu/_index.vi/",
+	"title": "Bắt đầu với Amazon VPC và AWS VPN Site to Site",
+	"tags": [],
+	"description": "",
+	"content": "Bắt đầu với Amazon VPC và AWS VPN Site to Site Tổng quan Trong bài lab này, bạn sẽ tìm hiểu các khái niệm cơ bản và thực hành về Amazon VPC ( Virtual Private Networking ). Tìm hiểu các khái niệm chính, các tính năng trong Amazon VPC. Thực hành tạo VPC cơ bản và thực hiện cấu hình Site to Site VPN để kết nối môi trường on-premise tới môi trường VPC của AWS.\nNội dung Giới thiệu VPC Tường lửa trong VPC Các bước chuẩn bị Tạo EC2 Server Cấu hình Site-to-Site VPN Dọn dẹp tài nguyên "
 },
 {
 	"uri": "http://localhost:1313/secu/3-configureefs/3.1-createsecuritygroupsforefs/",
@@ -18,14 +25,21 @@
 	"title": "Introduction",
 	"tags": [],
 	"description": "",
-	"content": "Introduction to Amazon EFS Amazon EFS create a shared storage file system that is available concurrently to multiple instances in Amazon Elastic Compute Cloud (Amazon EC2).\nAmazon EFS can be used to share file data without provisioning or managing servers. Amazone EFS automatically grows and shinks as files are added and removed , so capacity doesn\u0026rsquo;t need to me managed. Servers access shared data in Amazon EFS by using mount targets in each Availability Zone.\nApplications on each server view each mounted file systems as a local path, similar to \u0026ldquo;/mnt/efs\u0026rdquo;.\nIn the following sections, we will:\nLaunch and configure Amazon EFS file system. Mount the file system to an Amazon EC2 instance. Connect a second EC2 instance to the same file system. Share files between the two EC2 instances. "
+	"content": "The Cybersecurity Threat Landscape "
 },
 {
-	"uri": "http://localhost:1313/secu/2-prepairation/2.1-vpcsubnets/",
-	"title": "VPC &amp; Subnets",
+	"uri": "http://localhost:1313/secu/2-landscape/2.1-malware/",
+	"title": "Malware and Ransomware",
 	"tags": [],
 	"description": "",
-	"content": "VPC configure An AWS Virtual Private Cloud (VPC) is a virtual network environment within the Amazon Web Services (AWS) cloud platform. It allows you to create a logically isolated section of the AWS cloud where you can launch AWS resources like EC2 instances, RDS databases, and more.\nWe will create a manual VPC with config.\nVPC Name: WebServers IPv4 CIDR: 10.10.0.0/16 Subnets configure AWS Subnets are segmented portions of an Amazon Virtual Private Cloud (VPC) network.\nThey allow you to divide the IP address range of your VPC and organize resources into smaller, manageable groups.\nWe will create two subnets with two different Availability Zone.\nSubnet 1:\nSubnet Name: WebServers-Subnet1 IPv4 CIDR: 10.10.1.0/24 Availability Zone: ap-southeast-1a Subnet 2:\nSubnet Name: WebServers-Subnet2 IPv4 CIDR: 10.10.2.0/24 Availability Zone: ap-southeast-1b "
+	"content": "Protect against malware and ransomware By following these security controls, you will be significantly reducing your exposure to malware and ransomware.\nFirst is frequent backups Content\rIf your system has been compromised by malware or ransomware, you may have lost access to some or all of the data on that system. If you\u0026rsquo;ve been keeping frequent data backups however, the impact goes from possibly devastating to merely inconvenient. Simply restore the backed up data onto an uninfected system. Backing up your data is especially important to recover from ransomware attacks that specifically target your data. Also make sure you test your backups. You don\u0026rsquo;t want to attempt restoring your backups in an emergency only to find they\u0026rsquo;re corrupted or not complete.\nApply security updates and patches. Content\rMalware and ransomware can only work on systems that are vulnerable to their attacks. You can significantly reduce your exposure to malware and ransomware attacks by making sure your systems have all their security updates and patches.\nUpgrade to the latest operating system versions Content\rIf you\u0026rsquo;ve been putting off the expense or hassle of upgrading your operating systems to their most current versions, you could be exposing yourself to vulnerabilities that don\u0026rsquo;t have patches. Plus, current operating systems are often designed to be more secure than previous versions.\nInstall firewall Content\rFirewalls are designed to prevent unauthorized traffic from getting directly to your systems. Many forms of malware attempt to exploit systems that are directly connected to the internet without a firewall. There are also types of malware that once installed, attempt to communicate with a command and control system outside of the infected network. Hardware and software firewalls can block these malicious traffic flows.\nInstall anti malware software Content\rNo matter how much you try to protect your network and systems, malware can still be introduced by accident if a user becomes a victim of social engineering. That\u0026rsquo;s why it\u0026rsquo;s important to install antimalware software on all systems, and make sure the malware signatures are updated at least daily.\nExplore the threat of malware and ransomware MALWARE Malware is a catchall term for any software that is designed to gain unauthorized access to computers or network equipment with the goals of causing damage, extracting information, or making money for the attackers. Malware can take on many forms, including viruses, worms, Trojans, rootkits, adware, and spyware. A growing form of malware attack is known as cryptojacking. A growing form of malware attack is known as cryptojacking. This malware variant exploits a vulnerable computer and uses its resources to mine cryptocurrency. There are two main ways that systems become infected with malware. These are flaws in hardware or software that allow malware to get installed and function. Usually, patches exist to fix these vulnerabilities, but users and organizations don\u0026rsquo;t always apply these patches in a timely manner, leaving themselves exposed. And even old vulnerabilities are still targeted by malware attackers. The second most common way that systems get infected with malware is users falling prey to social engineering. This happens when attackers successfully convince a user to download infected software, open an infected email attachment, or connect an infected disk or drive. The system still needs to be vulnerable to the malware that the user introduces for it to work though. RANSOMEWARE Ransomware is a form of malware that has a special purpose. It encrypts data and files on the infected computer and instructs the user to send the attackers money to recover their information. In some cases, attackers will also steal files from the victim\u0026rsquo;s systems and threaten to expose these files to the public to increase the pressure to pay. This is known as double extortion. Ransomware can be a lucrative income for attackers. Ransomware can use any of the malware attack techniques, one of the most common is the fake urgent email with a malicious link or attachment designed to trick users to click the link or open the attachment. "
+},
+{
+	"uri": "http://localhost:1313/secu/3-configureefs/3.1-createsecuritygroupsforefs/_index.vi/",
+	"title": "Tạo VPC",
+	"tags": [],
+	"description": "",
+	"content": "Tạo VPC Truy cập giao diện AWS Management Console\nTìm VPC Chọn VPC Trong giao diện VPC\nChọn Yours VPC Chọn Create VPC Tiến hành các bước tạo VPC\nResource, chọn VPC only Name tag, nhập ASG IPv4 CIDR, nhập 10.10.0.0/16 Phần cấu hình Tennacy chúng ta sẽ để ở cơ chế mặc định. Nếu chúng ta chuyển sang Dedicated sẽ có một số EC2 Instance type không phù hợp và sẽ không tạo được trong VPC với tennacy mode là Dedicate\nChọn Create VPC Hoàn thành tạo VPC Xem chi tiết VPC vừa tạo. Kiểm nếu chưa Enable DNS resolution and DNS Hostname\nVào Edit VPC setting Chọn DNS setting Chọn và Save. "
 },
 {
 	"uri": "http://localhost:1313/secu/3-configureefs/3.2-createefsforfilesystems/",
@@ -35,18 +49,32 @@
 	"content": "Create EFS for file systems File systems settings: Services: EFS Choose Create file systems Name: WebServers-EFS-1 Uncheck Enable automatic backups (for reduce cost) Transition into infrequent Access (IA): choose None Transition into Archive: choose None Throught mode: Bursting Network access VPC: WebServers Mount targets: Remove all default Security groups Configure for Availability zone: ap-southeast-1a access to Security group: WebServers-EFS-1-SG Click Create Checking and copy config EFS via DNS Select WebServers-EFS-1 VPC Choose Attach Choose COPY Using the EFS mount helper: sudo mount -t efs -o tls fs-0469e4e20cb346954:/ efs "
 },
 {
-	"uri": "http://localhost:1313/secu/2-prepairation/2.2-internetgateway/",
+	"uri": "http://localhost:1313/secu/2-landscape/2.2-phishing/",
 	"title": "Internet gateway",
 	"tags": [],
 	"description": "",
 	"content": "Internet gateway configure: An AWS Internet Gateway: is a managed service that allows communication between instances within your Amazon Virtual Private Cloud (VPC) and the internet.\nWe will create a Internet Gateway (name: Internet Gateway) and attach to our VPC (WebServers)\n"
 },
 {
-	"uri": "http://localhost:1313/secu/2-prepairation/",
-	"title": "Prepairation",
+	"uri": "http://localhost:1313/secu/3-configureefs/3.2-createefsforfilesystems/_index.vi/",
+	"title": "Tạo Subnet",
 	"tags": [],
 	"description": "",
-	"content": "Diagram for Amazon EFS Lab In this lab, we will be constructing a model based on the following diagram:\nContents VPC \u0026amp; Subnets Internet gateway Route table Security groups Instances "
+	"content": "Tạo subnet Trong giao diện VPC\nChọn Subnets Chọn Create subnet Trong giao diện Create subnet\nChọn ASG VPC Thực hiện subnet settings\nSubnet name, nhập Public Subnet 1 Chọn AZ ap-southeast-1a IPv4 CIDR block, nhập 10.10.1.0/24 theo kiến trúc mô tả Chọn Create subnet Hoàn thành tạo subnet Thực hiện các bước tương tự tạo thêm các subnet\nPublic subnet 2 với CIDR là 10.10.2.0/24 nằm trong Availability Zone ap-southeast-1b. Private subnet 1 với CIDR là 10.10.3.0/24 nằm trong Availability Zone ap-southeast-1a. Private subnet 2 với CIDR là 10.10.4.0/24 nằm trong Availability Zone ap-southeast-1b Bạn có thể thấy có 2 cột là Availability Zone và Availability Zone ID. Để tránh việc tài nguyên EC2 được sử dụng không đồng đều, (chúng ta thường có xu hướng dùng AZ a để chạy primary và AZ b để stand by chẳng hạn) nên AWS sẽ gán ngẫu nhiên Availability Zone vào Availability Zone ID. Chúng ta có thể hiểu rằng Availability Zone là 1 dạng alias , còn Availability Zone ID mới chính là yếu tố định danh. Ví dụ ở hình trên Availability Zone ap-southeast-1a được gán Availability Zone ID là apse1-az2. Ở một AWS account khác , Availability Zone ap-southeast-1a có thể có Availability Zone ID là apse1-az1.\nCho phép tự động cấp phát public ip address cho 2 public subnet. Một điểm đáng chú ý nữa là các subnet về cơ bản đều giống nhau, thông qua cấu hình route table và cấp phát public IP address mà chúng ta mới phân chia ra Public và Private Subnet.\nTrong giao diện VPC\nChọn Subnets Chọn Public Subnet 1 Chọn Actions Chọn Edit subnet settings Trong mục Auto-assign IP settings\nChọn Enable auto-assign publi IPv4 address Chọn Save Sau đó thực hiện tương tự với Public subnet 2. "
+},
+{
+	"uri": "http://localhost:1313/secu/2-landscape/",
+	"title": "The Cybersecurity Threat Landscape",
+	"tags": [],
+	"description": "",
+	"content": "\nContents VPC \u0026amp; Subnets Internet gateway Route table Security groups Instances "
+},
+{
+	"uri": "http://localhost:1313/secu/3-configureefs/_index.vi/",
+	"title": "Các bước chuẩn bị",
+	"tags": [],
+	"description": "",
+	"content": "Các bước chuẩn bị Trong bài thực hành này, chúng ta sẽ xây dựng một mô hình theo sơ đồ bên dưới:\nNội dung Tạo VPC Tạo Subnet Tạo Internet Gateway Tạo Route Table Tạo Security Group "
 },
 {
 	"uri": "http://localhost:1313/secu/3-configureefs/",
@@ -63,11 +91,18 @@
 	"content": "Configuration Instances configure and Mount EFS file systems:\nSelect WebServer1\nConnect to Instances\nIn CMD interface run command:\nsudo -i sudo yum install -y amazon-efs-utils mkdir data ls sudo mount -t efs -o tls fs-0469e4e20cb346954:/ data cd data sudo bash -c \u0026ldquo;cat \u0026raquo; efs-1-setup.log\u0026rdquo; efs-1 mounted in site A cat efs-1-setup.log "
 },
 {
-	"uri": "http://localhost:1313/secu/2-prepairation/2.3-routetable/",
+	"uri": "http://localhost:1313/secu/2-landscape/2.3-email/",
 	"title": "Route table",
 	"tags": [],
 	"description": "",
 	"content": "Route table configure An AWS Route Table is a set of rules, also known as routes, that determine where network traffic is directed within a Virtual Private Cloud (VPC). We will create a route table (name: Route Table-Public) connect to Internet gateway and allow two subnets (WebServers-Subnet1 and WebServers-Subnet2) "
+},
+{
+	"uri": "http://localhost:1313/secu/3-configureefs/3.3-launchinstancesandconfigureefs/_index.vi/",
+	"title": "Tạo Internet Gateway",
+	"tags": [],
+	"description": "",
+	"content": "Tạo Internet Gateway Trong giao diện VPC\nChọn Internet Gateways Chọn Create internet gateway Thực hiện cấu hình\nName tag, nhập Internet Gateway Chọn Create internet gateway Hoàn thành tạo Internet Gateway Thực hiện Attach VPC\nChọn Actions Chọn Attach to VPC Chọn ASG, VPC ID sẽ được tự động điền. Chọn Attach intermet gateway Khi attach thành công State internet gateway sẽ chuyển sang Attached "
 },
 {
 	"uri": "http://localhost:1313/secu/4-resourcecleanup/",
@@ -77,7 +112,7 @@
 	"content": "Clean up resources We will proceed to delete the resources in the following order:\nDelete Instances Access the Amazon EC2 Select WebServers1 and WebServers2 Select Terminate Delete Security Groups Access to Security Groups Select WebServers-EFS-1-SG Select delete Delete file system Access the Amazon EFS Select WebServers-EFS-1-SG. Select delete Confirm. "
 },
 {
-	"uri": "http://localhost:1313/secu/2-prepairation/2.4-securitygroups/",
+	"uri": "http://localhost:1313/secu/2-landscape/2.4-ddos/",
 	"title": "Security groups",
 	"tags": [],
 	"description": "",
@@ -91,11 +126,25 @@
 	"content": "Setting EFS in diffirent Instane In the EFS interface:\nSelect WebServers-EFS-1-SG Click Network tab Click Manage Add mount target: Configure for Availability zone: ap-southeast-1b access to Security group: WebServers-EFS-1-SG Checking EFS config:\nInstances configure and Mount EFS file systems:\nSelect WebServer2 Connect to Instances\nIn CMD interface run command:\nsudo -i sudo yum install -y amazon-efs-utils mkdir data ls sudo mount -t efs -o tls fs-0469e4e20cb346954:/ data cd data sudo bash -c \u0026ldquo;cat \u0026raquo; efs-1-setup.log\u0026rdquo; efs-1 mounted in site B cat efs-1-setup.log We will see data in different Instances "
 },
 {
-	"uri": "http://localhost:1313/secu/2-prepairation/2.5-instances/",
+	"uri": "http://localhost:1313/secu/3-configureefs/3.4-sharefilesbetweentwoec2instances/_index.vi/",
+	"title": "Tạo Route Table",
+	"tags": [],
+	"description": "",
+	"content": "Tạo Route Table định tuyến đi ra ngoài internet thông qua Internet Gateway. Trong giao diện VPC\nChọn Route Tables Chọn Create route table Tiến hành cấu hình Route table\nName, nhập Route table-Public VPC, chọn ASG VPC. VPC id sẽ được tự động điền vào. Chọn Cretae route table Hoàn thành tạo Route table Thực hiện Edit route\nChọn Actions Chọn Edit routes Trong giao diện Edit routes\nChọn Add route Điền phần Destination CIDR : 0.0.0.0/0 đại diện cho Internet. Trong phần Target chọn Internet Gateway, sau đó chọn Internet Gateway chúng ta đã tạo. Internet Gateway ID sẽ được tự động điền. Chọn Save changes Hoàn thành và kiểm tra lại Routes Đảm bảo Route table - Public đang được chọn.\nChọn subnet associations Chọn Edit subnet associations Trong bước Edit subnet associations\nMở rộng cột Subnet ID bằng cách kéo thanh ngăn sang phải. Chọn đúng 2 subnet public chúng ta đã tạo. Chọn Save associations Hoàn thành và kiểm tra lại Subnet associations "
+},
+{
+	"uri": "http://localhost:1313/secu/2-landscape/2.5-deepfake/",
 	"title": "Instances",
 	"tags": [],
 	"description": "",
 	"content": "Instances configure AWS instances refer to virtual servers that you can deploy and run within the Amazon Elastic Compute Cloud (EC2) service.\nYou can choose from a wide range of instance types with different CPU, memory, storage, and networking capabilities to suit your specific workload needs.\nIn free-tiers account we will create two Instances in different Available Zone:\nInstances 1:\nName: WebServer1 Instance type: t2.micro Availability zone: ap-southeast-1a Instances 2:\nName: WebServer2 Instance type: t2.micro Availability zone: ap-southeast-1b "
+},
+{
+	"uri": "http://localhost:1313/secu/4-resourcecleanup/_index.vi/",
+	"title": "Dọn dẹp tài nguyên",
+	"tags": [],
+	"description": "",
+	"content": "Dọn dẹp tài nguyên Chúng ta sẽ tiến hành xóa các tài nguyên theo thứ tự sau\nTerminate các EC2 Instance. Terminate EC2 instance. Truy cập Amazon EC2 console tại địa chỉ EC2. Trên thanh điều hướng bên trái, chọn Intances Chọn tất cả EC2 Instance liên quan tới bài lab. Chọn Instance state Chọn Terminate instance Xác nhận terminate. Xóa NAT Gateway, Elastic IP Address Xóa NAT Gateway và Elastic IP Address. AWS sẽ thu tiền cho các EIP lãng phí nên bạn cần kiểm tra kỹ để tránh bị trừ chi phí ngoài ý muốn. Truy cập trang Amazon VPC console tại địa chỉ VPC Trên thanh điều hướng bên trái , click NAT Gateway. Chọn NAT Gateway. Click Action. Click Delete NAT Gateway. Gõ delete. Click Delete để xác nhận xóa NAT Gateway Xóa xóa Elastic IP Address. Tiếp tục xóa Elastic IP Address. Truy cập trang Amazon VPC console tại địa chỉ https://console.aws.amazon.com/vpc/ Trên thanh điều hướng bên trái , click Elastic IP. Chọn Elastic IP Address chúng ta đã tạo. Click Action. Click Release Elastic IP Address Click Release. Xóa EC2 Instance concect endpoint Truy cập vào giao dịch Endpoint Chọn Action, chọn Delete VPC endpoints Nhập delete Tiếp tục làm tương tự và xóa theo thứ tự sau nhé: VPN Site to Site connection. Virtual Private Gateway. Customer Gateway. VPC ASG VPN VPC ASG. "
 },
 {
 	"uri": "http://localhost:1313/secu/categories/",

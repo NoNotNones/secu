@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>http://localhost:1313/secu/en/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>http://localhost:1313/secu/vi/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/secu/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/_index.vi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/3-configureefs/3.1-createsecuritygroupsforefs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/1-introduce/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/2-landscape/2.1-malware/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/3-configureefs/3.1-createsecuritygroupsforefs/_index.vi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/3-configureefs/3.2-createefsforfilesystems/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/2-landscape/2.2-phishing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/3-configureefs/3.2-createefsforfilesystems/_index.vi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/2-landscape/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/3-configureefs/_index.vi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/3-configureefs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/3-configureefs/3.3-launchinstancesandconfigureefs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/2-landscape/2.3-email/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/3-configureefs/3.3-launchinstancesandconfigureefs/_index.vi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/4-resourcecleanup/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/2-landscape/2.4-ddos/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/3-configureefs/3.4-sharefilesbetweentwoec2instances/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/3-configureefs/3.4-sharefilesbetweentwoec2instances/_index.vi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/2-landscape/2.5-deepfake/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/4-resourcecleanup/_index.vi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/tags/</loc>
+  </url>
+</urlset>

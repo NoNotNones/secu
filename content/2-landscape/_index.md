@@ -1,0 +1,21 @@
+---
+title : "The Cybersecurity Threat Landscape"
+date : "`r Sys.Date()`"
+weight : 2
+chapter : false
+pre : " <b> 2. </b> "
+---
+
+
+![VPC][2]
+
+
+### Contents
+
+1. [VPC & Subnets](2.1-vpcsubnets/)
+2. [Internet gateway](2.2-internetgateway/)
+3. [Route table](2.3-routetable/)
+4. [Security groups](2.4-securitygroups/)
+5. [Instances](2.5-instances/)
+
+[2]: /secu/images/2/1.png?featherlight=false&width=50pc

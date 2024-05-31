@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Share files between two EC2 Instance on Start with Amazon EFS file system .</title>
+    <title>Share files between two EC2 Instance on Essentials in Cybersecurity</title>
     <link>http://localhost:1313/secu/3-configureefs/3.4-sharefilesbetweentwoec2instances/</link>
-    <description>Recent content in Share files between two EC2 Instance on Start with Amazon EFS file system .</description>
+    <description>Recent content in Share files between two EC2 Instance on Essentials in Cybersecurity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <atom:link href="http://localhost:1313/secu/3-configureefs/3.4-sharefilesbetweentwoec2instances/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tạo Route Table</title>
+      <link>http://localhost:1313/secu/3-configureefs/3.4-sharefilesbetweentwoec2instances/_index.vi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/secu/3-configureefs/3.4-sharefilesbetweentwoec2instances/_index.vi/</guid>
+      <description>Tạo Route Table định tuyến đi ra ngoài internet thông qua Internet Gateway. Trong giao diện VPC&#xA;Chọn Route Tables Chọn Create route table Tiến hành cấu hình Route table&#xA;Name, nhập Route table-Public VPC, chọn ASG VPC. VPC id sẽ được tự động điền vào. Chọn Cretae route table Hoàn thành tạo Route table Thực hiện Edit route&#xA;Chọn Actions Chọn Edit routes Trong giao diện Edit routes&#xA;Chọn Add route Điền phần Destination CIDR : 0.</description>
+    </item>
   </channel>
 </rss>

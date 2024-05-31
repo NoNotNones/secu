@@ -1,17 +1,18 @@
 ---
-title : " Amazon EFS file system "
+title : " Essentials in Cybersecurity"
 date : "`r Sys.Date()`"
 weight : 1
 chapter : false
 ---
 
-# File Systems in the Cloud
+# Essentials in Cybersecurity
 
-#### Overview
+#### Discover the skills needed for a career in cybersecurity.
 
-Amazone Elastic File System (Amazon EFS) provides a serverless, set-and-forget-elastic file system that you can use to share file data without provisioning or managing storage.
+- **Develop** an understanding of core cybersecurity concepts.
+- **Gain** fluency in cybersecurity terminology.
+- **Explore** the cybersecurity threat landscape.
 
-In this workshop , we will deploy and maintain a file systems infrastructure that is asscessible from two different server
 
 ![VPC](/secu/images/1/0001.png?featherlight=false&width=50pc)
 

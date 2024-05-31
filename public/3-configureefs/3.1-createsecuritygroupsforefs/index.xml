@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Create Security groups on Start with Amazon EFS file system .</title>
+    <title>Create Security groups on Essentials in Cybersecurity</title>
     <link>http://localhost:1313/secu/3-configureefs/3.1-createsecuritygroupsforefs/</link>
-    <description>Recent content in Create Security groups on Start with Amazon EFS file system .</description>
+    <description>Recent content in Create Security groups on Essentials in Cybersecurity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <atom:link href="http://localhost:1313/secu/3-configureefs/3.1-createsecuritygroupsforefs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tạo VPC</title>
+      <link>http://localhost:1313/secu/3-configureefs/3.1-createsecuritygroupsforefs/_index.vi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/secu/3-configureefs/3.1-createsecuritygroupsforefs/_index.vi/</guid>
+      <description>Tạo VPC Truy cập giao diện AWS Management Console&#xA;Tìm VPC Chọn VPC Trong giao diện VPC&#xA;Chọn Yours VPC Chọn Create VPC Tiến hành các bước tạo VPC&#xA;Resource, chọn VPC only Name tag, nhập ASG IPv4 CIDR, nhập 10.10.0.0/16 Phần cấu hình Tennacy chúng ta sẽ để ở cơ chế mặc định. Nếu chúng ta chuyển sang Dedicated sẽ có một số EC2 Instance type không phù hợp và sẽ không tạo được trong VPC với tennacy mode là Dedicate</description>
+    </item>
   </channel>
 </rss>
