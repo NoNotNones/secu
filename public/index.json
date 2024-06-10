@@ -7,25 +7,32 @@
 	"content": "Essentials in Cybersecurity Discover the skills needed for a career in cybersecurity. Develop an understanding of core cybersecurity concepts. Gain fluency in cybersecurity terminology. Explore the cybersecurity threat landscape. Content Introduction Prepairation Configure EFS Resource Cleanup "
 },
 {
-	"uri": "http://localhost:1313/secu/_index.vi/",
-	"title": "Bắt đầu với Amazon VPC và AWS VPN Site to Site",
+	"uri": "http://localhost:1313/secu/3-awareness/3.1-effective/",
+	"title": "...",
 	"tags": [],
 	"description": "",
-	"content": "Bắt đầu với Amazon VPC và AWS VPN Site to Site Tổng quan Trong bài lab này, bạn sẽ tìm hiểu các khái niệm cơ bản và thực hành về Amazon VPC ( Virtual Private Networking ). Tìm hiểu các khái niệm chính, các tính năng trong Amazon VPC. Thực hành tạo VPC cơ bản và thực hiện cấu hình Site to Site VPN để kết nối môi trường on-premise tới môi trường VPC của AWS.\nNội dung Giới thiệu VPC Tường lửa trong VPC Các bước chuẩn bị Tạo EC2 Server Cấu hình Site-to-Site VPN Dọn dẹp tài nguyên "
-},
-{
-	"uri": "http://localhost:1313/secu/3-advanced/3.1-createsecuritygroupsforefs/",
-	"title": "Create Security groups",
-	"tags": [],
-	"description": "",
-	"content": "Security group settings Create Create Security group for EFS interface: Name:\tWebServers-EFS-1-SG VPC:\tWeb_Servers_SG Configure Inbound: Allow NFS Checking Security Groups interface: Select WebServers-EFS-1-SG "
+	"content": ""
 },
 {
 	"uri": "http://localhost:1313/secu/1-introduce/",
 	"title": "Introduction",
 	"tags": [],
 	"description": "",
-	"content": "The Cybersecurity Threat Landscape "
+	"content": "Cybersecurity by Microsoft and LinkedIn Discover the skills needed for a career in cybersecurity. Gain a solid understanding of commonly used cybersecurity terms. Explore the current threat landscape and learn the core concepts of cybersecurity.\n2 - Examine the cybersecurity threat landscape The most common cybersecurity threats.\nMalware and Ransomeware Phishing and Smishing Bussiness Email Compromise Botnets and DDoS attacks Deepfakes Insider Threats Unmanaged IoT Devices Shadow IT Supply Chain Attacks and Third-Party 3 - Cybersecurity Awareness: Cybersecurity Terminology We will cover a number of terms, definitions and acronyms, or as some may even say, buzzwords that are commonly heard when cybersecurity is being discussed.\nDefining Cybersecurity and People Process, and Technology People Security awareness and leadership Red vs Blue vs Purple team Who are the adversaries ? Understanding privacy Process Process and Document Technical controls Technology Secure practices, terms, and exercies Network controls Advancements in technology Threats Actiors and Risks Threat actors and definitions Technical risks Threats that targe the human element 4 - Cybersecurity Foundations Cyber Threats\nUnderstanding the Cyber Kill Chain Pre-cyber threats The emergence of the cyber threats Botnets and the cybercrime industry Cloaking and alternate data streams Hiding using processes Controlling the target through a rootkit Phishing and watering holes Understanding advanced persistent threats Ransomware: A modern form of extortion5 Cryptomining Hardware implants and other cyber FUD Frameworks for Protection against Cyber Threats\nThe Orange Book: Early concepts in computer security Understanding the NIST Cybersecurity Framework3 Adopting the NIST Cybersecurity Framework2 Understanding the basics of cyber risk Analyzing cyber threats and controls Recording, reporting, and the risk context An advanced risk framework Managing security with COBIT COBIT for operational security Introduction to cybersecurity controls Cybersecurity control framework Cybersecurity standards of good practice Making Cybersecurity Effective\nArchitecting for security Protecting payment card data Clouding the issues Securing things on the internet Ensuring security is effective Detecting and Managing Cyber Incidents\nIncident management basics Measuring incident management maturity Detecting an attack Hunting for threats Responding to an incident Communications plan and notification Cyber Diplomacy\nCybersecurity goes global Understanding cyber norms Cybil and the Global Forum on Cyber Expertise The Traffic Light Protocol "
+},
+{
+	"uri": "http://localhost:1313/secu/4-foundations/4.1-effective/",
+	"title": "ISO 27001",
+	"tags": [],
+	"description": "",
+	"content": "Why Security Is a Business Issue\nArchitecting for Security Enterprise Security Architecture – A TopDown Approach Protecting payment card data 1 2 "
+},
+{
+	"uri": "http://localhost:1313/secu/5-iso/5.1-27001/",
+	"title": "ISO 27001",
+	"tags": [],
+	"description": "",
+	"content": "ISO/IEC 27001 - - "
 },
 {
 	"uri": "http://localhost:1313/secu/2-landscape/2.1-malware/",
@@ -35,20 +42,6 @@
 	"content": "Protect against malware and ransomware By following these security controls, you will be significantly reducing your exposure to malware and ransomware.\nFirst is frequent backups Content\rIf your system has been compromised by malware or ransomware, you may have lost access to some or all of the data on that system. If you\u0026rsquo;ve been keeping frequent data backups however, the impact goes from possibly devastating to merely inconvenient. Simply restore the backed up data onto an uninfected system. Backing up your data is especially important to recover from ransomware attacks that specifically target your data. Also make sure you test your backups. You don\u0026rsquo;t want to attempt restoring your backups in an emergency only to find they\u0026rsquo;re corrupted or not complete.\nApply security updates and patches. Content\rMalware and ransomware can only work on systems that are vulnerable to their attacks. You can significantly reduce your exposure to malware and ransomware attacks by making sure your systems have all their security updates and patches.\nUpgrade to the latest operating system versions Content\rIf you\u0026rsquo;ve been putting off the expense or hassle of upgrading your operating systems to their most current versions, you could be exposing yourself to vulnerabilities that don\u0026rsquo;t have patches. Plus, current operating systems are often designed to be more secure than previous versions.\nInstall firewall Content\rFirewalls are designed to prevent unauthorized traffic from getting directly to your systems. Many forms of malware attempt to exploit systems that are directly connected to the internet without a firewall. There are also types of malware that once installed, attempt to communicate with a command and control system outside of the infected network. Hardware and software firewalls can block these malicious traffic flows.\nInstall anti malware software Content\rNo matter how much you try to protect your network and systems, malware can still be introduced by accident if a user becomes a victim of social engineering. That\u0026rsquo;s why it\u0026rsquo;s important to install antimalware software on all systems, and make sure the malware signatures are updated at least daily.\nExplore the threat of malware and ransomware MALWARE Malware is a catchall term for any software that is designed to gain unauthorized access to computers or network equipment with the goals of causing damage, extracting information, or making money for the attackers. Malware can take on many forms, including viruses, worms, Trojans, rootkits, adware, and spyware. A growing form of malware attack is known as cryptojacking. A growing form of malware attack is known as cryptojacking. This malware variant exploits a vulnerable computer and uses its resources to mine cryptocurrency. There are two main ways that systems become infected with malware. These are flaws in hardware or software that allow malware to get installed and function. Usually, patches exist to fix these vulnerabilities, but users and organizations don\u0026rsquo;t always apply these patches in a timely manner, leaving themselves exposed. And even old vulnerabilities are still targeted by malware attackers. The second most common way that systems get infected with malware is users falling prey to social engineering. This happens when attackers successfully convince a user to download infected software, open an infected email attachment, or connect an infected disk or drive. The system still needs to be vulnerable to the malware that the user introduces for it to work though. RANSOMEWARE Ransomware is a form of malware that has a special purpose. It encrypts data and files on the infected computer and instructs the user to send the attackers money to recover their information. In some cases, attackers will also steal files from the victim\u0026rsquo;s systems and threaten to expose these files to the public to increase the pressure to pay. This is known as double extortion. Ransomware can be a lucrative income for attackers. Ransomware can use any of the malware attack techniques, one of the most common is the fake urgent email with a malicious link or attachment designed to trick users to click the link or open the attachment. "
 },
 {
-	"uri": "http://localhost:1313/secu/3-advanced/3.1-createsecuritygroupsforefs/_index.vi/",
-	"title": "Tạo VPC",
-	"tags": [],
-	"description": "",
-	"content": "Tạo VPC Truy cập giao diện AWS Management Console\nTìm VPC Chọn VPC Trong giao diện VPC\nChọn Yours VPC Chọn Create VPC Tiến hành các bước tạo VPC\nResource, chọn VPC only Name tag, nhập ASG IPv4 CIDR, nhập 10.10.0.0/16 Phần cấu hình Tennacy chúng ta sẽ để ở cơ chế mặc định. Nếu chúng ta chuyển sang Dedicated sẽ có một số EC2 Instance type không phù hợp và sẽ không tạo được trong VPC với tennacy mode là Dedicate\nChọn Create VPC Hoàn thành tạo VPC Xem chi tiết VPC vừa tạo. Kiểm nếu chưa Enable DNS resolution and DNS Hostname\nVào Edit VPC setting Chọn DNS setting Chọn và Save. "
-},
-{
-	"uri": "http://localhost:1313/secu/3-advanced/3.2-createefsforfilesystems/",
-	"title": "Create EFS for file systems",
-	"tags": [],
-	"description": "",
-	"content": "Create EFS for file systems File systems settings: Services: EFS Choose Create file systems Name: WebServers-EFS-1 Uncheck Enable automatic backups (for reduce cost) Transition into infrequent Access (IA): choose None Transition into Archive: choose None Throught mode: Bursting Network access VPC: WebServers Mount targets: Remove all default Security groups Configure for Availability zone: ap-southeast-1a access to Security group: WebServers-EFS-1-SG Click Create Checking and copy config EFS via DNS Select WebServers-EFS-1 VPC Choose Attach Choose COPY Using the EFS mount helper: sudo mount -t efs -o tls fs-0469e4e20cb346954:/ efs "
-},
-{
 	"uri": "http://localhost:1313/secu/2-landscape/2.2-phishing/",
 	"title": "Phishing and Smishing",
 	"tags": [],
@@ -56,25 +49,11 @@
 	"content": " Protect against phishing and smishing Let\u0026rsquo;s look at five steps you can take which can reduce your exposure to the threat of phishing.\nExpand content\rFirst, implement email filtering controls. Since phishing uses malicious emails, the better you get at blocking them, the more you\u0026rsquo;ll be protecting yourself and your organization. Users can control emails at their inbox by flagging unwanted and suspicious emails as junk.\nOrganizations can also block suspicious emails at the email server by blacklisting known malicious email servers and even blocking emails from entire countries, domains, or IP address ranges. Many email servers have additional controls designed to identify and block malicious emails.\nExpand content\rThe next way to protect against phishing is to block access to fraudulent and malicious websites. This can be done at the user level by accessing the internet only with web browsers that show a warning if users attempt to go to a fraudulent site. Most modern browsers have security settings that can be configured to do this. Also organizations can install firewalls or proxy servers that prevent users from accessing known bad websites\nExpand content\rThe third step you can take is to use a password manager. This is a digital safe that can generate and store strong and unique passwords for any site that needs one. That way you\u0026rsquo;re not reusing the same passwords on different websites. So even if one of your passwords gets compromised in a phishing attack, it won\u0026rsquo;t work anywhere else.\nExpand content\rFourth is multifactor authentication. This is a stronger form of authentication than just passwords. It requires a password plus at least a device you have or a biometric factor like a fingerprint. That way even if the attacker gets your username and password, they can\u0026rsquo;t log in without the other factor.\nExpand content\rFinally, we have security training. If users know not to open phishing emails and click on manipulated links, phishing wouldn\u0026rsquo;t be such a serious problem. Teach users how to recognize phishing attacks. Explain why they should be suspicious of urgent emails and how to hover over links to see if they\u0026rsquo;re legitimate or not.\nExplore the threat of phishing and smishing Phishing and smishing are social engineering attacks designed to trick users into sharing sensitive personal information, like usernames, passwords, and credit card details with attackers\nLet\u0026#39;s take a look at what these threats are and how they work.\rPhishing has been around since the 1990s, but it\u0026rsquo;s still going strong. IBM Security X-Force reported that phishing was the top method of compromise in 2022. The most common phishing technique is to send a fraudulent email to a targeted user. The email is designed to look like it came from a trusted entity and it will often appear urgent, so the recipient will quickly open it. Typically, the email will contain a manipulated link that looks like it goes to a real website. If the user clicks the link, though, it goes to a forged website designed to look like the real thing. Once there, the target will usually be prompted to enter their username and password for the site. If they do, the attacker will now have their credentials for the real site. Depending on the site, this can turn into an immediate loss of information or money for the victim.\nIn some cases, the phishing email won\u0026rsquo;t have a link. It will have a malicious attachment. If the recipient clicks on the attachment, it will often attempt to install ransomware,\nOne of the keys to a successful phishing attack is making the emails look like they came from trusted sources. So phishing attackers frequently co-op trusted brands like Microsoft, Apple, Google, Chase, and Amazon.\nPhishing email subject lines often have a certain style. Here are examples of typical subject lines used in phishing emails.\nNote, how they sound urgent or at least important enough to not ignore.\rSpear phishing is a variety of phishing that customizes email attacks to specific users, hoping the illusion of familiarity will create more trust.\nThe attackers send SMS texts to the victim\u0026#39;s phone.\rSmishing has many of the same characteristics of phishing, but instead of sending fraudulent emails, the attackers send SMS texts to the victim\u0026rsquo;s phone. Common smishing text messages often impersonate a bank with an urgent message about how your account has been locked due to suspicious activity, or a recent payment was made and the bank needs your confirmation. Then there\u0026rsquo;s usually a link to a malicious site designed to steal your online banking credentials.\nSmishing scams can also include text messages about winning a prize that you have to redeem through a website.\rYou should immediately be suspicious of getting anything for free through a text message.\nAnother form of smishing includes text messages impersonating someone you work with, like your boss or the CEO of your company\rThreat actors can easily find the company you work for and get your cellphone number to pull off this attack. They\u0026rsquo;ll send a text message, pretending to be your boss or CEO, and ask you to help them with a task. The task often requires you to buy gift cards to give to employees or clients. If you buy the cards, the attackers will ask you to send them the codes, which will allow them to instantly extract the money off the cards.\nBecause both phishing and smishing attacks are cheap, simple, and effective, we can expect that they will continue to be among the most common attacks on the cybersecurity threat landscape.\n"
 },
 {
-	"uri": "http://localhost:1313/secu/3-advanced/3.2-createefsforfilesystems/_index.vi/",
-	"title": "Tạo Subnet",
-	"tags": [],
-	"description": "",
-	"content": "Tạo subnet Trong giao diện VPC\nChọn Subnets Chọn Create subnet Trong giao diện Create subnet\nChọn ASG VPC Thực hiện subnet settings\nSubnet name, nhập Public Subnet 1 Chọn AZ ap-southeast-1a IPv4 CIDR block, nhập 10.10.1.0/24 theo kiến trúc mô tả Chọn Create subnet Hoàn thành tạo subnet Thực hiện các bước tương tự tạo thêm các subnet\nPublic subnet 2 với CIDR là 10.10.2.0/24 nằm trong Availability Zone ap-southeast-1b. Private subnet 1 với CIDR là 10.10.3.0/24 nằm trong Availability Zone ap-southeast-1a. Private subnet 2 với CIDR là 10.10.4.0/24 nằm trong Availability Zone ap-southeast-1b Bạn có thể thấy có 2 cột là Availability Zone và Availability Zone ID. Để tránh việc tài nguyên EC2 được sử dụng không đồng đều, (chúng ta thường có xu hướng dùng AZ a để chạy primary và AZ b để stand by chẳng hạn) nên AWS sẽ gán ngẫu nhiên Availability Zone vào Availability Zone ID. Chúng ta có thể hiểu rằng Availability Zone là 1 dạng alias , còn Availability Zone ID mới chính là yếu tố định danh. Ví dụ ở hình trên Availability Zone ap-southeast-1a được gán Availability Zone ID là apse1-az2. Ở một AWS account khác , Availability Zone ap-southeast-1a có thể có Availability Zone ID là apse1-az1.\nCho phép tự động cấp phát public ip address cho 2 public subnet. Một điểm đáng chú ý nữa là các subnet về cơ bản đều giống nhau, thông qua cấu hình route table và cấp phát public IP address mà chúng ta mới phân chia ra Public và Private Subnet.\nTrong giao diện VPC\nChọn Subnets Chọn Public Subnet 1 Chọn Actions Chọn Edit subnet settings Trong mục Auto-assign IP settings\nChọn Enable auto-assign publi IPv4 address Chọn Save Sau đó thực hiện tương tự với Public subnet 2. "
-},
-{
 	"uri": "http://localhost:1313/secu/2-landscape/",
-	"title": "The Cybersecurity Threat Landscape",
+	"title": "The Cybersecurity",
 	"tags": [],
 	"description": "",
 	"content": "\nContents "
-},
-{
-	"uri": "http://localhost:1313/secu/3-advanced/",
-	"title": "Advanced",
-	"tags": [],
-	"description": "",
-	"content": "Amazone Elastic File System (Amazon EFS) Using Amazon EFS, you can grow and shink your file systems automatically as you add and remove files, removing the need to provision and manage capacity to accommodate growth.\nContent Create Security groups Create EFS for file systems Launch Instances and Configure EFS Share files between two EC2 Instance "
 },
 {
 	"uri": "http://localhost:1313/secu/2-landscape/2.3-email/",
@@ -84,25 +63,11 @@
 	"content": "Route table configure An AWS Route Table is a set of rules, also known as routes, that determine where network traffic is directed within a Virtual Private Cloud (VPC). We will create a route table (name: Route Table-Public) connect to Internet gateway and allow two subnets (WebServers-Subnet1 and WebServers-Subnet2) "
 },
 {
-	"uri": "http://localhost:1313/secu/3-advanced/_index.vi/",
-	"title": "Các bước chuẩn bị",
+	"uri": "http://localhost:1313/secu/3-awareness/",
+	"title": "Cybersecurity Terminology",
 	"tags": [],
 	"description": "",
-	"content": "Các bước chuẩn bị Trong bài thực hành này, chúng ta sẽ xây dựng một mô hình theo sơ đồ bên dưới:\nNội dung Tạo VPC Tạo Subnet Tạo Internet Gateway Tạo Route Table Tạo Security Group "
-},
-{
-	"uri": "http://localhost:1313/secu/3-advanced/3.3-launchinstancesandconfigureefs/",
-	"title": "Launch Instances and Configure EFS",
-	"tags": [],
-	"description": "",
-	"content": "Configuration Instances configure and Mount EFS file systems:\nSelect WebServer1\nConnect to Instances\nIn CMD interface run command:\nsudo -i sudo yum install -y amazon-efs-utils mkdir data ls sudo mount -t efs -o tls fs-0469e4e20cb346954:/ data cd data sudo bash -c \u0026ldquo;cat \u0026raquo; efs-1-setup.log\u0026rdquo; efs-1 mounted in site A cat efs-1-setup.log "
-},
-{
-	"uri": "http://localhost:1313/secu/3-advanced/3.3-launchinstancesandconfigureefs/_index.vi/",
-	"title": "Tạo Internet Gateway",
-	"tags": [],
-	"description": "",
-	"content": "Tạo Internet Gateway Trong giao diện VPC\nChọn Internet Gateways Chọn Create internet gateway Thực hiện cấu hình\nName tag, nhập Internet Gateway Chọn Create internet gateway Hoàn thành tạo Internet Gateway Thực hiện Attach VPC\nChọn Actions Chọn Attach to VPC Chọn ASG, VPC ID sẽ được tự động điền. Chọn Attach intermet gateway Khi attach thành công State internet gateway sẽ chuyển sang Attached "
+	"content": "Content "
 },
 {
 	"uri": "http://localhost:1313/secu/2-landscape/2.4-ddos/",
@@ -112,25 +77,11 @@
 	"content": "Security Groups Configure AWS Security Groups act as virtual firewalls that control inbound and outbound traffic for Amazon EC2 instances, as well as other AWS resources. They operate at the instance level and provide security at the protocol and port access level. Security Groups allow you to specify which traffic is allowed or denied by defining inbound and outbound rules. We will create a Security Groups (name: Web_Servers_SG) and configure Inbound rules and Outbound rules to allow Admin can connect EC2 instances "
 },
 {
-	"uri": "http://localhost:1313/secu/3-advanced/3.4-sharefilesbetweentwoec2instances/",
-	"title": "Share files between two EC2 Instance",
+	"uri": "http://localhost:1313/secu/4-foundations/",
+	"title": "Cybersecurity Foundations",
 	"tags": [],
 	"description": "",
-	"content": "Setting EFS in diffirent Instane In the EFS interface:\nSelect WebServers-EFS-1-SG Click Network tab Click Manage Add mount target: Configure for Availability zone: ap-southeast-1b access to Security group: WebServers-EFS-1-SG Checking EFS config:\nInstances configure and Mount EFS file systems:\nSelect WebServer2 Connect to Instances\nIn CMD interface run command:\nsudo -i sudo yum install -y amazon-efs-utils mkdir data ls sudo mount -t efs -o tls fs-0469e4e20cb346954:/ data cd data sudo bash -c \u0026ldquo;cat \u0026raquo; efs-1-setup.log\u0026rdquo; efs-1 mounted in site B cat efs-1-setup.log We will see data in different Instances "
-},
-{
-	"uri": "http://localhost:1313/secu/3-advanced/3.4-sharefilesbetweentwoec2instances/_index.vi/",
-	"title": "Tạo Route Table",
-	"tags": [],
-	"description": "",
-	"content": "Tạo Route Table định tuyến đi ra ngoài internet thông qua Internet Gateway. Trong giao diện VPC\nChọn Route Tables Chọn Create route table Tiến hành cấu hình Route table\nName, nhập Route table-Public VPC, chọn ASG VPC. VPC id sẽ được tự động điền vào. Chọn Cretae route table Hoàn thành tạo Route table Thực hiện Edit route\nChọn Actions Chọn Edit routes Trong giao diện Edit routes\nChọn Add route Điền phần Destination CIDR : 0.0.0.0/0 đại diện cho Internet. Trong phần Target chọn Internet Gateway, sau đó chọn Internet Gateway chúng ta đã tạo. Internet Gateway ID sẽ được tự động điền. Chọn Save changes Hoàn thành và kiểm tra lại Routes Đảm bảo Route table - Public đang được chọn.\nChọn subnet associations Chọn Edit subnet associations Trong bước Edit subnet associations\nMở rộng cột Subnet ID bằng cách kéo thanh ngăn sang phải. Chọn đúng 2 subnet public chúng ta đã tạo. Chọn Save associations Hoàn thành và kiểm tra lại Subnet associations "
-},
-{
-	"uri": "http://localhost:1313/secu/4-update/",
-	"title": "Update",
-	"tags": [],
-	"description": "",
-	"content": "Clean up resources We will proceed to delete the resources in the following order:\nDelete Instances Access the Amazon EC2 Select WebServers1 and WebServers2 Select Terminate Delete Security Groups Access to Security Groups Select WebServers-EFS-1-SG Select delete Delete file system Access the Amazon EFS Select WebServers-EFS-1-SG. Select delete Confirm. "
+	"content": "Clean up resources "
 },
 {
 	"uri": "http://localhost:1313/secu/2-landscape/2.5-deepfake/",
@@ -140,11 +91,18 @@
 	"content": "Instances configure AWS instances refer to virtual servers that you can deploy and run within the Amazon Elastic Compute Cloud (EC2) service.\nYou can choose from a wide range of instance types with different CPU, memory, storage, and networking capabilities to suit your specific workload needs.\nIn free-tiers account we will create two Instances in different Available Zone:\nInstances 1:\nName: WebServer1 Instance type: t2.micro Availability zone: ap-southeast-1a Instances 2:\nName: WebServer2 Instance type: t2.micro Availability zone: ap-southeast-1b "
 },
 {
-	"uri": "http://localhost:1313/secu/4-update/_index.vi/",
-	"title": "Dọn dẹp tài nguyên",
+	"uri": "http://localhost:1313/secu/5-iso/",
+	"title": "GRC",
 	"tags": [],
 	"description": "",
-	"content": "Dọn dẹp tài nguyên Chúng ta sẽ tiến hành xóa các tài nguyên theo thứ tự sau\nTerminate các EC2 Instance. Terminate EC2 instance. Truy cập Amazon EC2 console tại địa chỉ EC2. Trên thanh điều hướng bên trái, chọn Intances Chọn tất cả EC2 Instance liên quan tới bài lab. Chọn Instance state Chọn Terminate instance Xác nhận terminate. Xóa NAT Gateway, Elastic IP Address Xóa NAT Gateway và Elastic IP Address. AWS sẽ thu tiền cho các EIP lãng phí nên bạn cần kiểm tra kỹ để tránh bị trừ chi phí ngoài ý muốn. Truy cập trang Amazon VPC console tại địa chỉ VPC Trên thanh điều hướng bên trái , click NAT Gateway. Chọn NAT Gateway. Click Action. Click Delete NAT Gateway. Gõ delete. Click Delete để xác nhận xóa NAT Gateway Xóa xóa Elastic IP Address. Tiếp tục xóa Elastic IP Address. Truy cập trang Amazon VPC console tại địa chỉ https://console.aws.amazon.com/vpc/ Trên thanh điều hướng bên trái , click Elastic IP. Chọn Elastic IP Address chúng ta đã tạo. Click Action. Click Release Elastic IP Address Click Release. Xóa EC2 Instance concect endpoint Truy cập vào giao dịch Endpoint Chọn Action, chọn Delete VPC endpoints Nhập delete Tiếp tục làm tương tự và xóa theo thứ tự sau nhé: VPN Site to Site connection. Virtual Private Gateway. Customer Gateway. VPC ASG VPN VPC ASG. "
+	"content": "Cybersecurity Foundations: Governance, Risk, and Compliance (GRC)\nGRC Buidubg a GRC Program 10 Framworks to know NIST 800-39 SOC 2 HIPAA PCI-DSS NIST CSF FeadRAMP CSA STAR SOX GDPR ISO 27001 GRC Carreers "
+},
+{
+	"uri": "http://localhost:1313/secu/5-iso/5.10-careers/",
+	"title": "GRC Careers",
+	"tags": [],
+	"description": "",
+	"content": "Careers What careers are there in GRC? - Key certifications to earn - Important soft skills - Importance of technical skills - "
 },
 {
 	"uri": "http://localhost:1313/secu/categories/",

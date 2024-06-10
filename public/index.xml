@@ -7,54 +7,5 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <atom:link href="http://localhost:1313/secu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bắt đầu với Amazon VPC và AWS VPN Site to Site</title>
-      <link>http://localhost:1313/secu/_index.vi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/secu/_index.vi/</guid>
-      <description>Bắt đầu với Amazon VPC và AWS VPN Site to Site Tổng quan Trong bài lab này, bạn sẽ tìm hiểu các khái niệm cơ bản và thực hành về Amazon VPC ( Virtual Private Networking ). Tìm hiểu các khái niệm chính, các tính năng trong Amazon VPC. Thực hành tạo VPC cơ bản và thực hiện cấu hình Site to Site VPN để kết nối môi trường on-premise tới môi trường VPC của AWS.</description>
-    </item>
-    <item>
-      <title>Tạo VPC</title>
-      <link>http://localhost:1313/secu/3-advanced/3.1-createsecuritygroupsforefs/_index.vi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/secu/3-advanced/3.1-createsecuritygroupsforefs/_index.vi/</guid>
-      <description>Tạo VPC Truy cập giao diện AWS Management Console&#xA;Tìm VPC Chọn VPC Trong giao diện VPC&#xA;Chọn Yours VPC Chọn Create VPC Tiến hành các bước tạo VPC&#xA;Resource, chọn VPC only Name tag, nhập ASG IPv4 CIDR, nhập 10.10.0.0/16 Phần cấu hình Tennacy chúng ta sẽ để ở cơ chế mặc định. Nếu chúng ta chuyển sang Dedicated sẽ có một số EC2 Instance type không phù hợp và sẽ không tạo được trong VPC với tennacy mode là Dedicate</description>
-    </item>
-    <item>
-      <title>Tạo Subnet</title>
-      <link>http://localhost:1313/secu/3-advanced/3.2-createefsforfilesystems/_index.vi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/secu/3-advanced/3.2-createefsforfilesystems/_index.vi/</guid>
-      <description>Tạo subnet Trong giao diện VPC&#xA;Chọn Subnets Chọn Create subnet Trong giao diện Create subnet&#xA;Chọn ASG VPC Thực hiện subnet settings&#xA;Subnet name, nhập Public Subnet 1 Chọn AZ ap-southeast-1a IPv4 CIDR block, nhập 10.10.1.0/24 theo kiến trúc mô tả Chọn Create subnet Hoàn thành tạo subnet Thực hiện các bước tương tự tạo thêm các subnet&#xA;Public subnet 2 với CIDR là 10.10.2.0/24 nằm trong Availability Zone ap-southeast-1b.</description>
-    </item>
-    <item>
-      <title>Các bước chuẩn bị</title>
-      <link>http://localhost:1313/secu/3-advanced/_index.vi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/secu/3-advanced/_index.vi/</guid>
-      <description>Các bước chuẩn bị Trong bài thực hành này, chúng ta sẽ xây dựng một mô hình theo sơ đồ bên dưới:&#xA;Nội dung Tạo VPC Tạo Subnet Tạo Internet Gateway Tạo Route Table Tạo Security Group </description>
-    </item>
-    <item>
-      <title>Tạo Internet Gateway</title>
-      <link>http://localhost:1313/secu/3-advanced/3.3-launchinstancesandconfigureefs/_index.vi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/secu/3-advanced/3.3-launchinstancesandconfigureefs/_index.vi/</guid>
-      <description>Tạo Internet Gateway Trong giao diện VPC&#xA;Chọn Internet Gateways Chọn Create internet gateway Thực hiện cấu hình&#xA;Name tag, nhập Internet Gateway Chọn Create internet gateway Hoàn thành tạo Internet Gateway Thực hiện Attach VPC&#xA;Chọn Actions Chọn Attach to VPC Chọn ASG, VPC ID sẽ được tự động điền. Chọn Attach intermet gateway Khi attach thành công State internet gateway sẽ chuyển sang Attached </description>
-    </item>
-    <item>
-      <title>Tạo Route Table</title>
-      <link>http://localhost:1313/secu/3-advanced/3.4-sharefilesbetweentwoec2instances/_index.vi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/secu/3-advanced/3.4-sharefilesbetweentwoec2instances/_index.vi/</guid>
-      <description>Tạo Route Table định tuyến đi ra ngoài internet thông qua Internet Gateway. Trong giao diện VPC&#xA;Chọn Route Tables Chọn Create route table Tiến hành cấu hình Route table&#xA;Name, nhập Route table-Public VPC, chọn ASG VPC. VPC id sẽ được tự động điền vào. Chọn Cretae route table Hoàn thành tạo Route table Thực hiện Edit route&#xA;Chọn Actions Chọn Edit routes Trong giao diện Edit routes&#xA;Chọn Add route Điền phần Destination CIDR : 0.</description>
-    </item>
-    <item>
-      <title>Dọn dẹp tài nguyên</title>
-      <link>http://localhost:1313/secu/4-update/_index.vi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/secu/4-update/_index.vi/</guid>
-      <description>Dọn dẹp tài nguyên Chúng ta sẽ tiến hành xóa các tài nguyên theo thứ tự sau&#xA;Terminate các EC2 Instance. Terminate EC2 instance. Truy cập Amazon EC2 console tại địa chỉ EC2. Trên thanh điều hướng bên trái, chọn Intances Chọn tất cả EC2 Instance liên quan tới bài lab. Chọn Instance state Chọn Terminate instance Xác nhận terminate. Xóa NAT Gateway, Elastic IP Address Xóa NAT Gateway và Elastic IP Address.</description>
-    </item>
   </channel>
 </rss>
