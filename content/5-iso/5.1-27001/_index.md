@@ -49,6 +49,10 @@ is an internationally recognized standard that defines the requirements for an i
 |![51][29]| ![51][34]|
 
 
+| Clauses 4 |  |
+|---|---|
+|![51][35]| ![51][36]|
+|![51][37]| ![51][38]|
 
 
 ----
@@ -99,6 +103,7 @@ is an internationally recognized standard that defines the requirements for an i
 [32]: /secu/images/5/51/32.png?featherlight=false&width=40pc
 [33]: /secu/images/5/51/33.png?featherlight=false&width=40pc
 [34]: /secu/images/5/51/34.png?featherlight=false&width=40pc
+
 [35]: /secu/images/5/51/35.png?featherlight=false&width=40pc
 [36]: /secu/images/5/51/36.png?featherlight=false&width=40pc
 [37]: /secu/images/5/51/37.png?featherlight=false&width=40pc

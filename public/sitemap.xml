@@ -14,6 +14,8 @@
   </url><url>
     <loc>http://localhost:1313/secu/2-landscape/2.1-malware/</loc>
   </url><url>
+    <loc>http://localhost:1313/secu/5-iso/5.2-owasp/</loc>
+  </url><url>
     <loc>http://localhost:1313/secu/2-landscape/2.2-phishing/</loc>
   </url><url>
     <loc>http://localhost:1313/secu/2-landscape/</loc>
