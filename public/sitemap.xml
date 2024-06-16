@@ -12,6 +12,8 @@
   </url><url>
     <loc>http://localhost:1313/secu/5-iso/5.1-27001/</loc>
   </url><url>
+    <loc>http://localhost:1313/secu/6-overview/6.1-market/</loc>
+  </url><url>
     <loc>http://localhost:1313/secu/2-landscape/2.1-malware/</loc>
   </url><url>
     <loc>http://localhost:1313/secu/5-iso/5.2-owasp/</loc>
@@ -27,6 +29,8 @@
     <loc>http://localhost:1313/secu/2-landscape/2.4-ddos/</loc>
   </url><url>
     <loc>http://localhost:1313/secu/4-foundations/</loc>
+  </url><url>
+    <loc>http://localhost:1313/secu/6-overview/</loc>
   </url><url>
     <loc>http://localhost:1313/secu/2-landscape/2.5-deepfake/</loc>
   </url><url>

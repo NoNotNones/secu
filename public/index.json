@@ -35,6 +35,13 @@
 	"content": "ISO 27001:2022-Compliant Cybersecurity Prerequisites Understand: Fundamental security concepts: Cybersecurity Foundations with Malcom Shore Risk management: Reisk manaement for IT and Cyber security managers with Jason Dion 1. ISO 27001 Overview\nis an internationally recognized standard that defines the requirements for an information security management system or ISMS\nOverview - Breaking down - Gaps and Criticisms - 2. Complying with ISO 27001\nCompliance and Cert - Building Compliance plan Clauses 4 ISO/IEC 27001 - - "
 },
 {
+	"uri": "http://localhost:1313/secu/6-overview/6.1-market/",
+	"title": "Maketplace",
+	"tags": [],
+	"description": "",
+	"content": "Why Security Is a Business Issue\nArchitecting for Security Enterprise Security Architecture – A TopDown Approach Protecting payment card data 1 2 "
+},
+{
 	"uri": "http://localhost:1313/secu/2-landscape/2.1-malware/",
 	"title": "Malware and Ransomware",
 	"tags": [],
@@ -46,7 +53,7 @@
 	"title": "OWASP Top 10",
 	"tags": [],
 	"description": "",
-	"content": "Learning the OWASP Top 10 What careers are there in GRC? - Key certifications to earn - Important soft skills - Importance of technical skills - "
+	"content": "Learning the OWASP Top 10 OWASP stands for Open Web Application Security Project. For decades, this group has been providing resources to educate and inform technology professionals about security best practices.\nBroken access control Cryptographic failures Injection Insecure design Security misconfiguration Vulnerable and outdated components Identification and authentication Software and data integrity failures Securiy logging and monitoring failures Server-side request forgery (SSRF) https://owasp.org/www-project-top-ten/\nKey Takeaways: Question: 1: Which statement describes broken access control in a web application? Private information is sent to an unauthorized person. Private information is exposed to an unauthorized person. Private information can be read, edited, or deleted by an unauthorized person. 2: Why do vulnerable and outdated components have such a large impact on the security of web applications? Most web apps include several different components, all of which must be tracked and kept up to date in order to improve the security posture of the application. 3: How do you know whether each of your components is vulnerable or not? Research known vulnerabilities as well as proactively test your applications. You should then update any out-of-date software and patch known vulnerabilities. 4: If you know that legitimate external resources are coming from a specific location, what can you do to prevent SSRF? Allow only that IP address or host name. You know that legitimate resources are coming from a specific location, so enforce an only-allowed list to prevent SSRF. 5: What is the significance of the new Insecure Design category in the 2021 OWASP Top 10? This new category acknowledges that security matters in the requirements and design phase of web app development. 6: What is an example of a digital security misconfiguration? You choose not to use a password on your mobile device. If you are choosing not to use a password on your mobile device, then your setup is not very secure. 7: Why is security logging and monitoring so important? It allows breaches to be discovered more quickly and at earlier stages of an attack. 8: If you are storing sensitive data, when should you encrypt the data? when the data is at rest and in transit Any data left unencrypted is at risk, so you should encrypt sensitive data that you are storing. 9: Why don\u0026rsquo;t regular access controls always work to prevent a server side request forgery (SSRF) attack? The server may have privileged access. 10: What is the result of an injection attack? The web application interprets input submitted by the user as an instruction to follow. 11: Which scenario is an example of identification and authentication failure? when a web app establishes a new user session without closing out the previous one when the software communicates with a host that provides a certificate, but does not ensure that the certificate is actually associated with that host when an actor claims to have a given identity, and the software does not prove that the claim is correct 12: The eighth item, Software and Data Integrity Failures, is a subset of what other OWASP top 10 item? Vulnerable and Outdated Components The eighth item is actually a subset of the sixth, specifically, vulnerabilities that result from an insecure CI/CD pipeline. 1. Broken access control - Senario\r- - 2. Cryptographic Failures - 3. Injection - 4. Insecure design - Noted of Insecure Design\r- - 5. Security misconfiguration - Noted - - 6. Vulnerable and outdated components - Noted of Insecure Design\r- - 7. Identification and authentication - Noted\r- - 8. Software and data integrity failures - Noted\r- - 9. Security logging and monitoring failures - Noted - - 10. Server-side reuest forgegy (SSRF) - Noted\r- - "
 },
 {
 	"uri": "http://localhost:1313/secu/2-landscape/2.2-phishing/",
@@ -103,6 +110,13 @@
 	"tags": [],
 	"description": "",
 	"content": "10 Framworks to know NIST 800-39 SOC 2 HIPAA PCI-DSS NIST CSF FeadRAMP CSA STAR SOX GDPR ISO 27001 Cybersecurity Foundations: Governance, Risk, and Compliance (GRC)\nGRC GRC - Governance - Risk - Compliance - GRC and Cybersecurity - Buiding a GRC Program GRC for Companies - Building GRC programs - GRC Tools - GRC Capability Model - GRC Tips and Strategies - "
+},
+{
+	"uri": "http://localhost:1313/secu/6-overview/",
+	"title": "Cybersecurity Overviews",
+	"tags": [],
+	"description": "",
+	"content": "Source: Cybersecurity Careers and Certifications\nDocuments: Google Drive\nA brief history of cybersecurity This quick history lesson will give some context to the quickly evolving world of cybersecurity and the growing need for security professionals An overview of cybersecurity key concepts There are four key concepts you\u0026rsquo;re likely to encounter in a cybersecurity career. The CIA, best practices, defense in depth, and policy, standards, procedures. Enabling Technologies for Cybersecurity IP networking, firewalls, and cryptography are three fundamental technologies you must understand as a cybersecurity professional. Cybersecurity career resources As a cybersecurity professional, one of your main duties will be to protect your organization and its users from cybersecurity threats One of the benefits of being in the cybersecurity industry is the great variety of resources available which can enhance your career. Cybersycurity Marketplace Government (FISMA) Financial institutions (GLBA) Healthcare (HIPAA) Coporate (SOX) Retail (PCI DSS) Cybersecyrity Success Traits Careers Specialist or technician Analyst Auditor Consultant Engineer Administrator Architect Manager Director Certifications Security + GSEC SSCP CEH OSCP CISA CISSP CISM CPP Career Path Career Advice "
 },
 {
 	"uri": "http://localhost:1313/secu/5-iso/5.10-careers/",
