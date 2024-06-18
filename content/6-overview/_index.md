@@ -175,7 +175,7 @@ Documents: [Google Drive](https://drive.google.com/drive/folders/1mGVWNtgomQoGvx
 
 - OSCP
 
-| COSCP | | |
+| OSCP | | |
 |---|---|---|
 |![6][87]| ![6][88]|![6][89]|
 |![6][90]| ![6][91]|![6][92]| 
@@ -207,14 +207,38 @@ Documents: [Google Drive](https://drive.google.com/drive/folders/1mGVWNtgomQoGvx
 |![6][119]|![6][123]| 
 |![6][120]|![6][124]| 
 
+| Get Certified | | |
+|---|---|---|
+|![6][610]| ![6][611]|![6][612]|
 
+| Example career path: Penetration tester | | |
+|---|---|---|
+|![6][613]| ![6][614]|![6][615]|
+|![6][616]| 
 
+| Example career path: Security architect | | |
+|---|---|---|
+|![6][617]| ![6][618]|![6][619]|
+|![6][620]| 
+
+| Example career path: CISO | | |
+|---|---|---|
+|![6][621]| ![6][622]|![6][623]|
+|![6][624]| 
 
 #### Career Advice
 
+| Begin with the end in mind| | |
+|---|---|---|
+|![6][710]| ![6][711]|![6][712]|
+|![6][713]| ![6][714]|![6][715]|
+|![6][716]| ![6][717]|![6][718]|
+|![6][719]| ![6][720]|![6][721]|
+|![6][722]| ![6][723]|
 
-
-
+| Build Depth of Knowledge| | |
+|---|---|---|
+|![6][724]| ![6][725]|![6][726]|
 
 
 [1]: /secu/images/6/0/1.png?featherlight=false&width=50pc
@@ -353,3 +377,47 @@ Documents: [Google Drive](https://drive.google.com/drive/folders/1mGVWNtgomQoGvx
 [127]: /secu/images/6/0/127.png?featherlight=false&width=50pc
 [128]: /secu/images/6/0/128.png?featherlight=false&width=50pc
 [129]: /secu/images/6/0/129.png?featherlight=false&width=50pc
+
+[710]: /secu/images/6/0/710.png?featherlight=false&width=50pc
+[711]: /secu/images/6/0/711.png?featherlight=false&width=50pc
+[712]: /secu/images/6/0/712.png?featherlight=false&width=50pc
+[713]: /secu/images/6/0/713.png?featherlight=false&width=50pc
+[714]: /secu/images/6/0/714.png?featherlight=false&width=50pc
+[715]: /secu/images/6/0/715.png?featherlight=false&width=50pc
+[716]: /secu/images/6/0/716.png?featherlight=false&width=50pc
+[717]: /secu/images/6/0/717.png?featherlight=false&width=50pc
+[718]: /secu/images/6/0/718.png?featherlight=false&width=50pc
+[719]: /secu/images/6/0/719.png?featherlight=false&width=50pc
+
+[720]: /secu/images/6/0/720.png?featherlight=false&width=50pc
+[721]: /secu/images/6/0/721.png?featherlight=false&width=50pc
+[722]: /secu/images/6/0/722.png?featherlight=false&width=50pc
+[723]: /secu/images/6/0/723.png?featherlight=false&width=50pc
+[724]: /secu/images/6/0/724.png?featherlight=false&width=50pc
+[725]: /secu/images/6/0/725.png?featherlight=false&width=50pc
+[726]: /secu/images/6/0/726.png?featherlight=false&width=50pc
+[727]: /secu/images/6/0/727.png?featherlight=false&width=50pc
+[728]: /secu/images/6/0/728.png?featherlight=false&width=50pc
+[729]: /secu/images/6/0/729.png?featherlight=false&width=50pc
+
+[610]: /secu/images/6/0/610.png?featherlight=false&width=50pc
+[611]: /secu/images/6/0/611.png?featherlight=false&width=50pc
+[612]: /secu/images/6/0/612.png?featherlight=false&width=50pc
+[613]: /secu/images/6/0/613.png?featherlight=false&width=50pc
+[614]: /secu/images/6/0/614.png?featherlight=false&width=50pc
+[615]: /secu/images/6/0/615.png?featherlight=false&width=50pc
+[616]: /secu/images/6/0/616.png?featherlight=false&width=50pc
+[617]: /secu/images/6/0/617.png?featherlight=false&width=50pc
+[618]: /secu/images/6/0/618.png?featherlight=false&width=50pc
+[619]: /secu/images/6/0/619.png?featherlight=false&width=50pc
+
+[620]: /secu/images/6/0/620.png?featherlight=false&width=50pc
+[621]: /secu/images/6/0/621.png?featherlight=false&width=50pc
+[622]: /secu/images/6/0/622.png?featherlight=false&width=50pc
+[623]: /secu/images/6/0/623.png?featherlight=false&width=50pc
+[624]: /secu/images/6/0/624.png?featherlight=false&width=50pc
+[625]: /secu/images/6/0/625.png?featherlight=false&width=50pc
+[626]: /secu/images/6/0/626.png?featherlight=false&width=50pc
+[627]: /secu/images/6/0/627.png?featherlight=false&width=50pc
+[628]: /secu/images/6/0/628.png?featherlight=false&width=50pc
+[629]: /secu/images/6/0/629.png?featherlight=false&width=50pc
